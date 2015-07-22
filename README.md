@@ -23,7 +23,7 @@ Pi Media Server
 ### Connectivity
 
 * Use the LAN port until Wireless is setup
-* Connect to your Pi over SSH using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+* Connect to your Pi over SSH using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) (ie: `putty -ssh pi@raspberrypi.local`)
 
 ## Install
 
