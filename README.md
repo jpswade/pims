@@ -94,8 +94,7 @@ sudo cp "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/
 sudo sed -i 's#/># DlnaEnabled="1"/>#g' "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Preferences.xml"
 sudo service plexmediaserver restart
 sudo update-rc.d plexmediaserver defaults
-_IP=$(hostname -I)
-echo http://$_IP:32400/web/
+echo http://raspberrypi.local:32400/web/
 ```
 
 #### Install ITV-Player
@@ -120,8 +119,7 @@ testparm
 sudo service samba restart
 (echo raspberry; echo raspberry) | sudo smbpasswd -s pi
 sudo apt-get install swat -y
-_IP=$(hostname -I)
-echo http://$_IP:901/
+echo http://raspberrypi.local:901/
 ```
 
 ### Install Transmission
@@ -149,8 +147,7 @@ echo "}" | sudo tee -a /etc/transmission-daemon/settings.json
 sudo service transmission-daemon reload
 sudo service transmission-daemon start
 sudo update-rc.d transmission-daemon defaults
-_IP=$(hostname -I)
-echo http://$_IP:9091
+echo http://raspberrypi.local:9091
 ```
 
 ### Install BitTorrent Sync
@@ -166,8 +163,7 @@ sudo sh -c "/usr/lib/btsync/btsync-daemon --dump-sample-config > /etc/btsync/bts
 sudo sed -i 's#// "storage_path" : "/home/user/.sync",# "storage_path" : "/root/.sync",#g' /etc/btsync/btsync.conf
 sudo service btsync start
 sudo update-rc.d btsync defaults
-_IP=$(hostname -I)
-echo Add /mnt/$LABEL/Sync via http://$_IP:8888
+echo Add /mnt/$LABEL/Sync via http://raspberrypi.local:8888
 ```
 
 ### Install ZoneMinder
@@ -178,9 +174,8 @@ wget https://gist.githubusercontent.com/jpswade/a567831cb2305ad9f190/raw/d520067
 sudo mv IPCAM.pm /usr/share/perl5/ZoneMinder/Control/IPCAM.pm
 sudo /etc/init.d/apache2 force-reload
 sudo service zoneminder restart
-_IP=$(hostname -I)
 echo http://www.zoneminder.com/wiki/index.php/Foscam_Clones#General_Zoneminder_Setup
-echo http://$_IP/zm
+echo http://raspberrypi.local/zm
 ```
 
 # See also
