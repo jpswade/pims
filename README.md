@@ -1,6 +1,8 @@
 # pims
 Pi Media Server
 
+![Image of Pi Media Server](https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11429724_983434871678140_1191806836_n.jpg)
+
 ## Prerequisites
 
 ### Hardware
@@ -181,6 +183,8 @@ echo http://www.zoneminder.com/wiki/index.php/Foscam_Clones#General_Zoneminder_S
 echo http://$_IP/zm
 ```
 
-# Thanks
+# See also
 
+* [Pi Media Server Image](https://instagram.com/p/4t_cmWrQY3/)
 * [Potteries Hackspace](http://potterieshackspace.org/)
+* [/r/raspberry_pi](https://www.reddit.com/r/raspberry_pi/)
