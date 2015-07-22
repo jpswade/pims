@@ -10,6 +10,7 @@ Pi Media Server
 * [WD Elements 2TB USB 2.0 External Desktop Hard Drive - Black](http://amzn.to/1efVnNd)
 * [Edimax EW-7811UN 150Mbps Wireless Nano USB Adapter](http://amzn.to/1efVoAG)
 * [RASPBERRY PI 2 Power Supply (5v 2A PSU Charger)](http://amzn.to/1efVJmU)
+* [Sugru](http://amzn.to/1eg2sNJ) (optional)
 
 ### Operating System
 
