@@ -16,7 +16,8 @@ Pi Media Server
 
 ### Operating System
 
-* Use [NOOBS](http://downloads.raspberrypi.org/NOOBS_latest) to install Raspbian
+* Download [NOOBS_v*.zip](http://downloads.raspberrypi.org/NOOBS_latest), extract zip contents onto the SD card
+* Power up the Pi, from the [NOOBS menu choose to Install Raspbian](https://www.raspberrypi.org/documentation/installation/noobs.md)
 * Keep the [Command Line Boot Behaviour](http://elinux.org/RPi_raspi-config#boot_behaviour_-_Start_desktop_on_boot.3F)
 
 ### Connectivity
