@@ -8,7 +8,11 @@ Pi Media Server
 The goal is to offload the Plex Media Server software from a power hungry 
  standard desktop computer to a low power Raspberry Pi.
 
-The objective is to save money, power and resources.
+The objective is to save money and resources by using less power all of the
+ time.
+
+That's not all though as we'll want it to act as a NAS, do BitTorrent downloads
+ and file synchronisation too.
 
 ## Prerequisites
 
