@@ -3,6 +3,13 @@ Pi Media Server
 
 ![Image of Pi Media Server](https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11429724_983434871678140_1191806836_n.jpg)
 
+## Introduction
+
+The goal is to offload the Plex Media Server software from a power hungry 
+ standard desktop computer to a low power Raspberry Pi.
+
+The objective is to save money, power and resources.
+
 ## Prerequisites
 
 ### Hardware
