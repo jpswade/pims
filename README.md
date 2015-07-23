@@ -25,6 +25,13 @@ Pi Media Server
 * Use the LAN port until Wireless is setup
 * Connect to your Pi over SSH using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) (ie: `putty -ssh pi@raspberrypi.local`)
 
+### Client
+
+* A Plex compatible client, such as:
+* [Roku 3 Streaming Media Player](http://amzn.to/1MmI3V3)
+* [NOW TV Box - Sky](http://amzn.to/1MmI7nP) (rebranded Roku LT player) and [Roku Plex Client](https://github.com/plexinc/roku-client-public)
+* [Plex for Android](http://amzn.to/1Ikqsvk)
+
 ## Install
 
 ### Wireless Setup
