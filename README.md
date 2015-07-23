@@ -105,6 +105,7 @@ sudo mount -a
 ```
 
 ### Install Plex Media Server
+![Plex Media Server Installed](http://i.imgur.com/N5fQRfn.png)
 ```
 sudo apt-get update && sudo apt-get install apt-transport-https -y --force-yes
 wget -O - https://dev2day.de/pms/dev2day-pms.gpg.key | sudo apt-key add -
@@ -129,6 +130,7 @@ sudo service plexmediaserver restart
 ```
 
 ### Install Samba
+![Samba Installed](http://i.imgur.com/xgS2qs4.png)
 ```
 sudo apt-get install samba samba-common-bin -y
 sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak
@@ -145,6 +147,7 @@ echo http://raspberrypi.local:901/
 ```
 
 ### Install Transmission
+![Transmission Installed](http://i.imgur.com/q4zZyVk.png)
 ```
 sudo apt-get install transmission-daemon -y
 sudo usermod -a -G pi debian-transmission
@@ -173,6 +176,7 @@ echo http://raspberrypi.local:9091
 ```
 
 ### Install BitTorrent Sync
+![BitTorrent Sync Installed](http://i.imgur.com/Tg72o7R.png)
 ```
 sudo touch /etc/apt/sources.list.d/btsync.list
 echo "deb http://debian.yeasoft.net/btsync wheezy main contrib non-free" | sudo tee -a /etc/apt/sources.list.d/btsync.list
@@ -189,6 +193,7 @@ echo Add /mnt/$LABEL/Sync via http://raspberrypi.local:8888
 ```
 
 ### Install ZoneMinder
+![ZoneMinder Installed](http://i.imgur.com/HJR4drC.png)
 ```
 sudo apt-get install zoneminder -y
 sudo ln -s /etc/zm/apache.conf /etc/apache2/conf.d/zoneminder.conf
@@ -200,7 +205,7 @@ echo http://www.zoneminder.com/wiki/index.php/Foscam_Clones#General_Zoneminder_S
 echo http://raspberrypi.local/zm
 ```
 
-# See also
+## See also
 
 * [Pi Media Server Image](https://instagram.com/p/4t_cmWrQY3/)
 * [Potteries Hackspace](http://potterieshackspace.org/)
