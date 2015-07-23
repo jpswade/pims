@@ -5,6 +5,9 @@ Pi Media Server
 
 ## Introduction
 
+In a nutshell, this is a guide to everything you need to turn a Raspberry Pi and
+ hard disk into a home Media Server and NAS.
+
 The goal is to offload the Plex Media Server software from a power hungry 
  standard desktop computer to a low power Raspberry Pi.
 
