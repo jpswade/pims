@@ -169,6 +169,8 @@ sudo sed -i 's#}##g' /etc/transmission-daemon/settings.json
 echo '    "watch-dir": "/mnt/'$LABEL'/downloads/_torrents/_watch",' | sudo tee -a /etc/transmission-daemon/settings.json
 echo '    "watch-dir-enabled": true' | sudo tee -a /etc/transmission-daemon/settings.json
 echo "}" | sudo tee -a /etc/transmission-daemon/settings.json
+sudo touch /var/log/transmission.log
+sudo chown debian-transmission:debian-transmission /var/log/transmission.log
 sudo service transmission-daemon reload
 sudo service transmission-daemon start
 sudo update-rc.d transmission-daemon defaults
