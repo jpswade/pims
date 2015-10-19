@@ -210,6 +210,11 @@ sudo sh -c "priority = 1 >> /etc/watchdog.conf"
 sudo sh -c "interval = 4 >> /etc/watchdog.conf"
 sudo /etc/init.d/watchdog restart
 
+### Install WebDav
+sudo apt-get install apache2
+sudo a2enmod dav_fs
+sudo a2enmod auth_digest
+
 ### Install ZoneMinder
 ![ZoneMinder Installed](http://i.imgur.com/HJR4drC.png)
 ```
