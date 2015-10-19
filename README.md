@@ -195,6 +195,21 @@ sudo update-rc.d btsync defaults
 echo Add /mnt/$LABEL/Sync via http://raspberrypi.local:8888
 ```
 
+### Install WatchDog
+sudo modprobe bcm2708_wdog
+echo "bcm2708_wdog" | sudo tee -a /etc/modules
+sudo echo bcm2708_wdog >> /etc/modules
+sudo apt-get install watchdog chkconfig
+sudo chkconfig watchdog on
+sudo /etc/init.d/watchdog start
+sudo cp /etc/watchdog.conf /etc/watchdog.conf.bak
+sudo sh -c "watchdog-device = /dev/watchdog > /etc/watchdog.conf"
+sudo sh -c "watchdog-timeout = 14 >> /etc/watchdog.conf"
+sudo sh -c "realtime = yes >> /etc/watchdog.conf"
+sudo sh -c "priority = 1 >> /etc/watchdog.conf"
+sudo sh -c "interval = 4 >> /etc/watchdog.conf"
+sudo /etc/init.d/watchdog restart
+
 ### Install ZoneMinder
 ![ZoneMinder Installed](http://i.imgur.com/HJR4drC.png)
 ```
