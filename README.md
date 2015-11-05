@@ -228,6 +228,12 @@ echo http://www.zoneminder.com/wiki/index.php/Foscam_Clones#General_Zoneminder_S
 echo http://raspberrypi.local/zm
 ```
 
+### Troubleshooting
+
+#### This server is not powerful enough to convert video
+
+You need to buy the [MPEG-2 license key](http://www.raspberrypi.com/mpeg-2-license-key/).
+
 ## See also
 
 * [Pi Media Server Image](https://instagram.com/p/4t_cmWrQY3/)
