@@ -49,6 +49,11 @@ for yourself, give feedback or contribute.
 
 ## Install
 
+### Lower GPU memory usage
+```
+sudo sed -i 's/gpu_mem=64/gpu_mem=16/g' /boot/config.txt
+```
+
 ### Wireless Setup
 ```
 SSID=MyRouter
