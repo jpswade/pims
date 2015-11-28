@@ -114,6 +114,7 @@ echo "deb https://dev2day.de/pms/ wheezy main" | sudo tee /etc/apt/sources.list.
 sudo apt-get update
 sudo apt-get install plexmediaserver -y
 sudo apt-get install libexpat1 -y
+sudo apt-get install mkvtoolnix -y
 sudo cp "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Preferences.xml" "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Preferences.xml.bak"
 sudo sed -i 's#/># DlnaEnabled="1"/>#g' "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Preferences.xml"
 sudo service plexmediaserver restart
@@ -232,7 +233,8 @@ echo http://raspberrypi.local/zm
 
 #### This server is not powerful enough to convert video
 
-You need to buy the [MPEG-2 license key](http://www.raspberrypi.com/mpeg-2-license-key/).
+* for %%A IN (*.mkv) DO ffmpeg -y -i "%%A" -c:v copy -c:a aac -strict -2 -b:a:0 192k -ac 2 "%%A".mp4
+* Buy the [MPEG-2 license key](http://www.raspberrypi.com/mpeg-2-license-key/).
 
 ## See also
 
