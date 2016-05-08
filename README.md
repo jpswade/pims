@@ -26,7 +26,7 @@ for yourself, give feedback or contribute.
 * [Samsung Memory 32GB Evo MicroSDHC UHS-I Grade 1 Class 10 Memory Card](http://amzn.to/1CPrL5c)
 * [WD Elements 2TB USB 2.0 External Desktop Hard Drive - Black](http://amzn.to/1efVnNd)
 * [Edimax EW-7811UN 150Mbps Wireless Nano USB Adapter](http://amzn.to/1efVoAG)
-* [RASPBERRY PI 2 Power Supply (5v 2A PSU Charger)](http://amzn.to/1efVJmU)
+* [Raspberry Pi Official Universal Power Supply Unit](http://amzn.to/1SVYATr)
 * [Sugru](http://amzn.to/1eg2sNJ) (optional)
 
 ### Operating System
