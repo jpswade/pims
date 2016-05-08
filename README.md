@@ -234,7 +234,15 @@ echo http://www.zoneminder.com/wiki/index.php/Foscam_Clones#General_Zoneminder_S
 echo http://raspberrypi.local/zm
 ```
 
-### Troubleshooting
+### Install rTorrent/ruTorrent
+```
+sudo apt-get install rtorrent git dtach apache2 libapache2-mod-scgi cifs-utils php5 -y
+#/.rtorrent.rc
+sudo git clone https://github.com/Novik/ruTorrent.git /var/www/rutorrent/
+sudo chown -R www-data:www-data /var/www/rutorrent
+```
+
+## Troubleshooting
 
 #### This server is not powerful enough to convert video
 
